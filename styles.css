@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1c1e22;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+header nav img {
+    height: 65px;
+    max-width: 100%;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    header nav img {
+        height: 50px;
+    }
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+header nav ul li a:hover {
+    background: #555;
+}
+
+.hero {
+    background-color: #1c1e22; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 3rem 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+.hero-image {
+    max-width: 50%;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section{
+    padding: 2rem 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.info-box {
+    background-color: #fff;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 22%;
+}
+
+.info-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* <!-- Quote/Testimonial Section --> */
+
+.testimonials {
+    background-color: #E5E7EB; /* Light grey background */
+    padding: 2rem 0;
+}
+
+blockquote {
+    color: #333;
+    padding: 2rem 3rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem; /* Slightly larger font size for the quote */
+}
+
+blockquote p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+blockquote cite {
+    display: block;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* <!-- Call to Action Section --> */
+
+.call-to-action {
+    background-color: #fff; /* Light grey background */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem; /* Add padding to create a container effect */
+    background-color: #fff; /* Blue background */;
+    color: black; /* White text color */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #007BFF; /* Blue border */
+}
+
+.call-to-action h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.call-to-action p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.call-to-action button {
+    /* background-color: #fff;
+    color: #007BFF;
+    border: 2px solid #007BFF;;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer; */
+
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.call-to-action button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* <!-- Footer Section --> */
+footer {
+    background-color: #1c1e22; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+footer nav ul li a {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* footer p{
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+} */
